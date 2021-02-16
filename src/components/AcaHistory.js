@@ -1,6 +1,7 @@
-import marist from '../img/marist.png'
-
-
+import marist from '../img/marist.png';
+import wsu from '../img/wsu.jpg';
+import cqu from '../img/cqu.jpeg';
+import ca from '../img/ca.jpg';
 
 const leftStyles = {
   display: "inline-block",
@@ -17,6 +18,12 @@ const leftImageStyles = {
   display: "inline-block",
   height: 262,
   float: "left"
+};
+
+const rightImageStyles = {
+  display: "inline-block",
+  height: 262,
+  float: "right"
 };
 
 function AcaHistory() {
@@ -38,6 +45,7 @@ function AcaHistory() {
 
         <div style={rightStyles}>
         <h3>Western Sydney University (2019-2020)</h3>
+        <img src={wsu} alt="western sydney logo" style={rightImageStyles}/>
         <p>I started studying at WSU in 2019 and finished in 2020.</p>
         <p>I was studying a B of Medical Science which I deffered</p>
         <p>in order to fast track my medical qualifications at</p>
@@ -50,6 +58,7 @@ function AcaHistory() {
 
         <div style={leftStyles}>
         <h3>Central Queendsland University (2020-2021)</h3>
+        <img src={cqu} alt="central queensland logo" style={leftImageStyles}/>
         <p>I started stuyding at CQU in 2020 to mid 2021.</p>
         <p>Currently I am stuyding a Bachelor of Cardiac</p>
         <p>Physiology and Echocardiography. This was a niche</p>
@@ -61,6 +70,7 @@ function AcaHistory() {
 
         <div style={rightStyles}>
         <h3>Coder Academy (2020-2021)</h3>
+        <img src={ca} alt="coder academy logo" style={rightImageStyles}/>
         <p>I started studying at Coder Academey towards the</p>
         <p>end of 2020 and have graduated in early 2021.</p>
         <p>Coding has always been an interest of mine since I</p>
