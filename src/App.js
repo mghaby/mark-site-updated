@@ -1,8 +1,8 @@
-import AcaHistory from './AcaHistory';
-import ContactMe from './ContactMe';
-import Landing from './Landing'
+import AcaHistory from './components/AcaHistory';
+import ContactMe from './components/ContactMe';
+import Landing from './components/Landing'
 import Nav from './Nav'
-import Projects from './Projects'
+import Projects from './components/Projects'
 
 
 function App() {

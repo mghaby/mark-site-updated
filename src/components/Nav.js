@@ -6,8 +6,7 @@ import {
 import Projects from './Projects';
 import AcaHistory from './AcaHistory';
 import ContactMe from './ContactMe';
-import App from './App'
-
+import App from '../App'
 
 
 function Nav() {

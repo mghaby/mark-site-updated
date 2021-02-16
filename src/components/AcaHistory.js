@@ -8,10 +8,12 @@ const rightStyles = {
   paddingRight: 100
 };
 
+const imageStyles = {};
+
 function AcaHistory() {
     return (
       <div>
-        <h1 style={{textAlign: "center"}}>Academic History:</h1>
+        <h1 style={{textAlign: "center"}}>Academic History</h1>
 
         <div style={leftStyles}>
         <h3>Parramatta Marist High (2013-2018)</h3>
