@@ -1,7 +1,7 @@
 import AcaHistory from './components/AcaHistory';
 import ContactMe from './components/ContactMe';
 import Landing from './components/Landing'
-import Nav from './Nav'
+import Nav from './components/Nav'
 import Projects from './components/Projects'
 
 

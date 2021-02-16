@@ -1,6 +1,11 @@
+import marist from '../img/marist.png'
+
+
 
 const leftStyles = {
-  paddingLeft: 100
+  display: "inline-block",
+  paddingLeft: 100,
+  width: 1000
 };
 
 const rightStyles = {
@@ -8,7 +13,11 @@ const rightStyles = {
   paddingRight: 100
 };
 
-const imageStyles = {};
+const leftImageStyles = {
+  display: "inline-block",
+  height: 262,
+  float: "left"
+};
 
 function AcaHistory() {
     return (
@@ -17,6 +26,7 @@ function AcaHistory() {
 
         <div style={leftStyles}>
         <h3>Parramatta Marist High (2013-2018)</h3>
+        <img src={marist} alt="marist logo" style={leftImageStyles}/>
         <p>I started Parramatta Marist High in 2013 and finished</p>
         <p>in 2018. Generally my subjects were quite static</p>
         <p>until 2016 where the introduction of electives</p>
