@@ -11,13 +11,13 @@ const leftStyles = {
 
 const rightStyles = {
   textAlign: "right",
-  paddingRight: 100
+  paddingRight: 100,
 };
 
 const leftImageStyles = {
   display: "inline-block",
   height: 262,
-  float: "left"
+  float: "left",
 };
 
 const rightImageStyles = {
@@ -25,6 +25,7 @@ const rightImageStyles = {
   height: 262,
   float: "right"
 };
+
 
 function AcaHistory() {
     return (
@@ -46,6 +47,7 @@ function AcaHistory() {
         <div style={rightStyles}>
         <h3>Western Sydney University (2019-2020)</h3>
         <img src={wsu} alt="western sydney logo" style={rightImageStyles}/>
+        <div style={{marginRight: 275}}>
         <p>I started studying at WSU in 2019 and finished in 2020.</p>
         <p>I was studying a B of Medical Science which I deffered</p>
         <p>in order to fast track my medical qualifications at</p>
@@ -55,10 +57,12 @@ function AcaHistory() {
         <p>the course diminished because I was not studying what</p>
         <p>I needed for the future, hence the look to fast track.</p>
         </div>
+        </div>
 
         <div style={leftStyles}>
         <h3>Central Queendsland University (2020-2021)</h3>
         <img src={cqu} alt="central queensland logo" style={leftImageStyles}/>
+        <div style={{marginLeft: 275}}>
         <p>I started stuyding at CQU in 2020 to mid 2021.</p>
         <p>Currently I am stuyding a Bachelor of Cardiac</p>
         <p>Physiology and Echocardiography. This was a niche</p>
@@ -67,18 +71,21 @@ function AcaHistory() {
         <p>course. I realised that this is not what I wanted</p>
         <p>to study which led me to find Coder Academy.</p>
         </div>
+        </div>
 
         <div style={rightStyles}>
         <h3>Coder Academy (2020-2021)</h3>
         <img src={ca} alt="coder academy logo" style={rightImageStyles}/>
+        <div style={{marginRight: 275}}>
         <p>I started studying at Coder Academey towards the</p>
         <p>end of 2020 and have graduated in early 2021.</p>
         <p>Coding has always been an interest of mine since I</p>
-        <p>was young but I never had really explored it.</p>
-        <p>While at Coder Academy I learned how to be a</p>
+        <p style={{marginRight: 15}}>was young but I never had really explored it.</p>
+        <p style={{marginRight: 15}}> While at Coder Academy I learned how to be a</p>
         <p>proficient full stack developer as well as also</p>
         <p>truely knowing what it means to be a programmer</p>
         <p>while making a career of this new knowledge.</p>
+        </div>
         </div>
 
       </div>
