@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  background-color: #F8F9FA;
+  color: #212529;
 }
 
 code {

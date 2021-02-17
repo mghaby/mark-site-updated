@@ -2,6 +2,7 @@ import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -48,6 +49,8 @@ function ContactMe() {
           defaultValue="this needs to be a big text field"
           variant="filled"
         />
+        <br/>
+        <Button variant="contained" color="default">Submit</Button>
         </Grid>
         {/* need a submit button here */}
         </form>
