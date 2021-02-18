@@ -87,7 +87,7 @@ function AcaHistory() {
         <p>while making a career of this new knowledge.</p>
         </div>
         </div>
-
+        <hr />
       </div>
     );
   }
