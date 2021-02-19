@@ -11,7 +11,10 @@ import App from '../App'
 
 function Nav() {
     return (
+      <div style={{backgroundColor: "#343A40", color: "white"}}>
       <h1>Nav</h1>
+      <hr />
+      </div>
     );
   }
 
