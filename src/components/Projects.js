@@ -55,7 +55,8 @@ function Projects() {
           <h3>React Full Stack App</h3>
           <p>The app was made to help people reach their fitness goals</p>
           <p>The app was made with a Rails API and a React Frontend</p>
-          {/* <p>https://heartline-react.netlify.app/</p> */}
+          <a href={"https://heartline-react.netlify.app/"}>Check it Out!</a>
+          <br />
           <br />
         </div>
         <br />
