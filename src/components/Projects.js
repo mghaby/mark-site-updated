@@ -3,7 +3,8 @@ import react_project from '../img/react_project.png'
 
 const proImg = {
   display: 'inline-block',
-  height: 262
+  height: 262,
+  width: 300
 };
 
 const proText = {
@@ -14,6 +15,13 @@ const proText = {
 const divCent = {
   textAlign: "center"
 };
+
+const card = {
+  boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
+  maxWidth: 300,
+  margin: "auto",
+  textAlign: "center"
+}
 
 function Projects() {
     return (
@@ -40,12 +48,15 @@ function Projects() {
         <br />
         <br />
 
-        <div style={divCent}>
-          <h3>React Full Stack App</h3>
+        <div style={card}>
           <img src={react_project} alt="Full Stack Preview" style={proImg}/>
+          <br />
+          <br />
+          <h3>React Full Stack App</h3>
           <p>The app was made to help people reach their fitness goals</p>
           <p>The app was made with a Rails API and a React Frontend</p>
           {/* <p>https://heartline-react.netlify.app/</p> */}
+          <br />
         </div>
         <br />
         <br />
