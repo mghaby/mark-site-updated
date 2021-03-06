@@ -5,7 +5,7 @@ function Landing() {
       <div>
         <h1>Welcome</h1>
         <p style={{margin: 10}}>Hello! My name is Mark Ghaby. Im a Sydney-based Junior Full Stack Developer.</p>
-        {/* an img should be here of self */}
+          {/* an img should be here of self */}
         <br />
         <p>My skills range from .... In the future I'd like to
           diversify this list and potentially branch into Penetration 
