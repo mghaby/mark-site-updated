@@ -1,29 +1,52 @@
 import me from '../img/me.png'
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
 
 const pfpStyle = {
   display: "inline-block",
   float: "right",
   height: 150,
   width: 150,
-  // marginRight: 250
+  marginRight: 400
 };
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    '& > *': {
+      margin: theme.spacing(1),
+    },
+  },
+}));
+
 function Landing() {
+    const classes = useStyles();
     return (
       <div>
-        <h1>Welcome</h1>
-        <div style={{textAlign: "center", alignContent: "center", alignItems: "center"}}>
-        <p style={{display: "inline-block"}}>Hello! My name is Mark Ghaby. Im a Sydney-based Junior Full Stack Developer.</p>
+        <br /><br /><br />< br/>
+        <h1 style={{textAlign: "center"}}>Hi! I'm Mark.</h1>
         <img src={me} alt={"Photo of Mark Ghaby"} style={pfpStyle} />
-        </div>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <p>My skills range from JavaScript, Ruby, React, Ruby on Rails and HTML {"&"} CSS.
-          In the future I'd like to
-          diversify this list and potentially branch into Penetration 
-          Testing in the Cyber Security world. </p>
-          {/* a graphic of language list sshould be somewhere around here */}
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <hr />
+        <br /><br /><br /><br/>
+        <p style={{textAlign: "center", marginLeft: 525}}>Full-Stack Web Dev from Sydney, Australia</p>
+        <p style={{textAlign: "center", marginLeft: 525}}>HTML {"&"} CSS | JS | React | Ruby | Ruby on Rails | PostgreSQL</p>
+        <br /><br /><br /><br />
+        <hr style={{width: 100, margin: "auto", width: 1200}} />
+        <br /><br /><br /><br /><br /><br /><br />
+        <Grid
+            container
+            direction="row"
+            justify="space-evenly"
+            alignItems="center"
+          >
+        <Button variant="outlined">Twitter</Button>
+        <Button variant="outlined">LinkedIn</Button>
+        <Button variant="outlined">Github</Button>
+        <Button variant="outlined">Résumé</Button>
+        <Button variant="outlined">Email</Button>
+        </Grid>
+        {/* add buttons here for github / linkedin / twitter  */}
+        <br /><br /><br /><br /><br />
+        <h1 style={{textAlign: "center"}}>{";"}</h1>
       </div>
     )
   }
