@@ -38,7 +38,7 @@ function Landing() {
             justify="space-evenly"
             alignItems="center"
           >
-        <Button variant="outlined">Twitter</Button>
+        <Button variant="outlined" href={'https://twitter.com/GhabyMark'}>Twitter</Button>
         <Button variant="outlined">LinkedIn</Button>
         <Button variant="outlined">Github</Button>
         <Button variant="outlined">Résumé</Button>
