@@ -26,6 +26,7 @@ const card = {
 function Projects() {
     return (
       <div>
+        <br />
         <h1 style={{textAlign: "center"}}>Projects</h1>
         <br />
         <div style={divCent}>
@@ -64,10 +65,8 @@ function Projects() {
           <br />
           <br />
         </div>
-        <br />
-        <br />
-
-        <hr />
+        {/* add a more to come type message after grid is layed out */}
+        <br /><br /><br /><br />
       </div>
     );
   }

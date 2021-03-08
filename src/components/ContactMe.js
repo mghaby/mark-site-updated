@@ -52,8 +52,8 @@ function ContactMe() {
         <br/>
         <Button variant="contained" color="default">Submit</Button>
         </Grid>
-        {/* need a submit button here */}
         </form>
+        <h1 style={{textAlign: "center"}}>{";"}</h1>
       </div>
     );
   }
