@@ -25,12 +25,12 @@ function Landing() {
       <div>
         <br /><br /><br />< br/>
         <h1 style={{textAlign: "center"}}>Hi! I'm Mark.</h1>
-        <img src={me} alt={"Photo of Mark Ghaby"} style={pfpStyle} />
+        <img src={me} alt={"Mark Ghaby"} style={pfpStyle} />
         <br /><br /><br /><br/>
-        <p style={{textAlign: "center", marginLeft: 525}}>Full-Stack Web Dev from Sydney, Australia</p>
+        <p style={{textAlign: "center", marginLeft: 525}}>Junior Full-Stack Web Dev from Sydney, Australia</p>
         <p style={{textAlign: "center", marginLeft: 525}}>HTML {"&"} CSS | JS | React | Ruby | Ruby on Rails | PostgreSQL</p>
         <br /><br /><br /><br />
-        <hr style={{width: 100, margin: "auto", width: 1200}} />
+        <hr style={{margin: "auto", width: 800}} />
         <br /><br /><br /><br /><br /><br /><br />
         <Grid
             container
@@ -39,14 +39,15 @@ function Landing() {
             alignItems="center"
           >
         <Button variant="outlined" href={'https://twitter.com/GhabyMark'}>Twitter</Button>
-        <Button variant="outlined">LinkedIn</Button>
-        <Button variant="outlined">Github</Button>
+        <Button variant="outlined" href={'https://www.linkedin.com/in/mark-ghaby-bb6ab01b4/'}>LinkedIn</Button>
+        <Button variant="outlined" href={'https://github.com/mghaby/'}>Github</Button>
         <Button variant="outlined">Résumé</Button>
         <Button variant="outlined">Email</Button>
         </Grid>
-        {/* add buttons here for github / linkedin / twitter  */}
         <br /><br /><br /><br /><br />
         <h1 style={{textAlign: "center"}}>{";"}</h1>
+        <br /><br /><br /><br /><br /><br />
+        <hr style={{margin: "auto", width: 1200}} />
       </div>
     )
   }
