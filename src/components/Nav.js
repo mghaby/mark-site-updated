@@ -5,7 +5,6 @@ import {
   Link} from "react-router-dom";
 import Projects from './Projects';
 import AcaHistory from './AcaHistory';
-import ContactMe from './ContactMe';
 import App from '../App'
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
@@ -41,7 +40,6 @@ function Nav() {
         <Tab label="Home" />
         <Tab label="Projects" />
         <Tab label="Academic History" />
-        <Tab label="Contact me" />
       </Tabs>
     </Paper>
     <hr />

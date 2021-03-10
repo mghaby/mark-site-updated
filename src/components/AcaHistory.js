@@ -87,7 +87,9 @@ function AcaHistory() {
         <p>while making a career of this new knowledge.</p>
         </div>
         </div>
-        <hr />
+        <br />
+        <h1 style={{textAlign: "center"}}>{";"}</h1>
+        <br/>
       </div>
     );
   }
