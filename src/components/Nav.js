@@ -1,11 +1,5 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link} from "react-router-dom";
-import Projects from './Projects';
-import AcaHistory from './AcaHistory';
-import App from '../App'
+// import Projects from './Projects';
+// import AcaHistory from './AcaHistory';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';

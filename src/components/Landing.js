@@ -42,7 +42,7 @@ function Landing() {
         <Button variant="outlined" href={'https://www.linkedin.com/in/mark-ghaby-bb6ab01b4/'}>LinkedIn</Button>
         <Button variant="outlined" href={'https://github.com/mghaby/'}>Github</Button>
         <Button variant="outlined">Résumé</Button>
-        <Button variant="outlined">Email</Button>
+        <Button variant="outlined" href={'mailto:mark.ghaby71@gmail.com'}>Email</Button>
         </Grid>
         <br /><br /><br /><br /><br />
         <h1 style={{textAlign: "center"}}>{";"}</h1>
