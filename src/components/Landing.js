@@ -1,5 +1,4 @@
 import me from '../img/me.png'
-import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 
@@ -11,18 +10,9 @@ const pfpStyle = {
   marginRight: 400
 };
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    '& > *': {
-      margin: theme.spacing(1),
-    },
-  },
-}));
-
 function Landing() {
-    const classes = useStyles();
     return (
-      <div>
+      <div id="home">
         <br /><br /><br />< br/>
         <h1 style={{textAlign: "center"}}>Hi! I'm Mark.</h1>
         <img src={me} alt={"Mark Ghaby"} style={pfpStyle} />

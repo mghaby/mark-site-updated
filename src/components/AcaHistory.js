@@ -29,7 +29,7 @@ const rightImageStyles = {
 
 function AcaHistory() {
     return (
-      <div>
+      <div id="acahistory">
         <h1 style={{textAlign: "center"}}>Academic History</h1>
 
         <div style={leftStyles}>

@@ -18,7 +18,7 @@ const card = {
 
 function Projects() {
     return (
-      <div>
+      <div id='projects'>
         <br />
         <h1 style={{textAlign: "center"}}>Projects</h1>
         <br />
