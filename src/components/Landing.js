@@ -21,7 +21,7 @@ function Landing() {
         <p style={{textAlign: "center", marginLeft: 525}}>Junior Full-Stack Web Dev from Sydney, Australia</p>
         <p style={{textAlign: "center", marginLeft: 525}}>HTML {"&"} CSS | JS | React | Ruby | Ruby on Rails | PostgreSQL</p>
         <br /><br /><br /><br />
-        <hr style={{margin: "auto", width: 800}} />
+        <hr style={{margin: "auto", width: "60%"}} />
         <br /><br /><br /><br /><br /><br /><br />
         <Grid
             container
@@ -38,7 +38,7 @@ function Landing() {
         <br /><br /><br /><br /><br />
         <h1 style={{textAlign: "center"}}>{";"}</h1>
         <br /><br /><br /><br /><br /><br />
-        <hr style={{margin: "auto", width: 1200}} />
+        <hr style={{margin: "auto", width: "90%"}} />
       </div>
     )
   }

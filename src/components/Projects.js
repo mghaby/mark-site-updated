@@ -41,6 +41,7 @@ function Projects() {
         </div>
         <br />
         <br />
+        <br />
 
         <div style={card}>
           <img src={ruby} alt="CLI App preview" style={proImg}/>
@@ -71,10 +72,11 @@ function Projects() {
         <br /><br />
         <div style={{textAlign: "center"}}>
         <h1>More projects to come!</h1>
-        <h1>Keep in touch with my socials to be in the loop</h1>
+        <h1>Keep in touch with my socials to be in the loop!
+        </h1>
         </div>
         <br /><br /><br />
-        <hr style={{margin: "auto", width: 1200}} />
+        <hr style={{margin: "auto", width: "90%"}} />
         <br /><br /><br /><br />
       </div>
     );
