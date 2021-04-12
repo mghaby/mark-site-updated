@@ -8,8 +8,6 @@ function Nav() {
       <div style={{position: "fixed", width:"100%"}}>
       <Paper style={{backgroundColor: "#343A40", color: "white"}}>
       <Tabs
-        // value={}
-        // onChange={}
         indicatorColor="white"
         textColor="white"
         centered
