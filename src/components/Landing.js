@@ -13,13 +13,13 @@ const pfpStyle = {
 
 function Landing() {
     return (
-      <div id="home">
+      <div id="home" style={{height: "100%"}}>
         <br /><br /><br />< br/>
         <h1 style={{textAlign: "center"}}>Hi! I'm Mark.</h1>
         <img src={me} alt={"Mark Ghaby"} style={pfpStyle} />
         <br /><br /><br /><br/>
         <p style={{textAlign: "center", marginLeft: 525}}>Junior Full-Stack Web Dev from Sydney, Australia</p>
-        <p style={{textAlign: "center", marginLeft: 525}}>HTML {"&"} CSS | JS | React | Ruby | Ruby on Rails | PostgreSQL</p>
+        <p style={{textAlign: "center", marginLeft: 500}}>HTML {"&"} CSS | JS | React | Ruby | Ruby on Rails | PostgreSQL</p>
         <br /><br /><br /><br />
         <hr style={{margin: "auto", width: "60%"}} />
         <br /><br /><br /><br /><br /><br /><br />
