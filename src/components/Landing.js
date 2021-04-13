@@ -17,7 +17,7 @@ const pfpMob = {
   marginLeft: "auto",
   marginRight: "auto",
   width: "50%"
-}
+};
 
 function Landing() {
     return (
@@ -25,6 +25,7 @@ function Landing() {
         <br /><br /><br />< br/>
         <h1 style={{textAlign: "center"}}>Hi! I'm Mark.</h1>
 
+        {/* laptop */}
         <MediaQuery minWidth={1224}>
         <img src={me} alt={"Mark Ghaby"} style={pfpStyle} />
         <br /><br /><br /><br/>
@@ -32,6 +33,7 @@ function Landing() {
         <p style={{textAlign: "center", marginLeft: 500}}>HTML {"&"} CSS | JS | React | Ruby | Ruby on Rails | PostgreSQL</p>
         </MediaQuery>
 
+        {/* mobile */}
         <MediaQuery maxWidth={375}>
         <img src={me} alt={"Mark Ghaby"} style={pfpMob} />
         <br /><br /><br /><br/>
